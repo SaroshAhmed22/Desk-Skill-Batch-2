@@ -1,0 +1,36 @@
+
+.flex-div{
+    border: 2px solid red;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+  
+}
+
+.flex-div div{
+    width: 300px;
+    height: 300px;
+    border: 3px solid blue;
+    margin-top: 30px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: red;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: blue;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:orange;
+  }

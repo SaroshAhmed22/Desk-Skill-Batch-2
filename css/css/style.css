@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Neonderthaw&family=Poppins:ital,wght@0,200;1,900&family=Praise&display=swap');
+
+/* font-family: 'Lobster', cursive; */
+
+
+.bilal{
+/* font-family: 'Lobster', cursive; */
+
+    /* font-family: 'Praise', cursive; */
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+/* 
+
+
+
+
+
+
+
+/*  Selectors */
+
+/* .class1{
+    background-color: red !important;
+}
+
+
+.class1{
+    background-color: blueviolet;
+}
+
+
+
+
+.fa-facebook-official{
+    color: blue;
+    font-size: 24px;
+} */
+
+
+
+
+/* h1{ */
+    /* font-family: 'Neonderthaw', cursive */
+
+
+
+
+
+/* div h1{
+    display: inline-block;
+} */
+
+
+/* div span {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid blue;
+} */
+
+/* h1{
+    border: 2px solid green;
+    width: 200px;
+    height: 100px;
+} */
+
+
+
+/* 
+div{
+    border: 1px solid red;
+} */
+
+/* div h1{
+    color: brown;
+} */
+
+h1~p{
+    color: dodgerblue;
+}
+
+div >{
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+}
+
+
+
+
+
+
+.para{
+    font-size: 30px;
+    font-weight: bold;
+    color: aqua;
+    /* text-align: left; */
+    /* border: 9px dotted blue; */
+ 
+
+}
+
+
+
+
+.mypara{
+    font-size: 60px;
+    /* background-color: blue; */
+    /* letter-spacing: 30px; */
+    /* word-spacing: 20px; */
+    /* text-transform: lowercase; */
+    text-align: center;
+
+}
+
+
+
+
+/* h1{
+    color: royalblue;
+}
+
+span{
+    color: royalblue;
+}
+
+p{
+    color: royalblue;
+} */
+
+/* 
+h1,span,p,h2{
+    color: royalblue;
+} */
+
+
+
+
+
+
+
+/* h1{
+    background-color: peru;
+}
+
+p{
+    color: red;
+}
+
+
+span{
+    font-size: 40px;
+} */
+
+
+p{
+font-family: 'Lobster', cursive;
+
+
+}
