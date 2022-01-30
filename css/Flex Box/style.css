@@ -2,10 +2,17 @@
 .flex-div{
     border: 2px solid red;
     display: flex;
-    /* flex-direction: column-reverse; */
-    justify-content: space-around;
+    flex-direction:row;
+    /* justify-content: space-around; */
     flex-wrap: wrap;
   
+}
+
+
+.mydiv{
+  background-color: orchid;
+  width: 500px;
+  height: 500px;
 }
 
 .flex-div div{
@@ -15,22 +22,82 @@
     margin-top: 30px;
 }
 
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
+.overflow{
+  width: 300px;
+  height: 100px;
+  border: 2px solid red;
+
+}
+
+.overflow:hover{
+  background-color: chocolate;
+}
+
+.heading{
+  font-size: 50px;
+  text-align: center;
+}
+
+/*  ! If the browser window is 600px or smaller, the background color will be green: */
+
+/* @media only screen and (max-width: 600px) {
+
+  .heading{
+    font-size: 20px;
+    background-color: cornflowerblue;
+    border: 2px solid green;
+  
+  }
+} */
+
+
+
+  /*  ! If the browser window is 600px or greater, the background color will be orange: */
+
+/* @media only screen and (min-width: 650px) {
+
+  .heading{
+    font-size: 70px;
+    background-color: orange;
+    border: 2px solid green;
+  
+  }
+
+  .mydiv{
+    width: 500px;
+    height: 200px;
   }
   
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: red;
+
   }
+ */
+
+
+ /* ! between 2 points */
+/* 
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+
   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: blue;
+  .mydiv{
+    display: none;
   }
+
   
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background:orange;
-  }
+
+   
+}
+
+ */
+
+
+
+    
+
+
+
+
+
+
+
+
+
