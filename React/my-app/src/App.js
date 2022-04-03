@@ -4,6 +4,10 @@ import Header from './component/HeaderComponent/Header'
 import About from './component/About'
 import Footer from './component/Footer'
 import Services from './component/Services'
+import Hooks from './component/Hooks'
+import UseApi from './component/UseApi'
+
+
 const App = () => {
 
   let myName = "Chandresh"
@@ -13,10 +17,15 @@ const App = () => {
   return (
     <div>
 
-      <Header name={myName} age={18} />
+      <UseApi></UseApi>
+      {/* <Services /> */}
+
+      {/* <Hooks /> */}
+
+      {/* <Header name={myName} age={18} />
       <About />
       <Services />
-      <Footer />
+      <Footer /> */}
     </div >
   )
 }
