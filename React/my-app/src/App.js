@@ -6,7 +6,8 @@ import Footer from './component/Footer'
 import Services from './component/Services'
 import Hooks from './component/Hooks'
 import UseApi from './component/UseApi'
-
+import HandlingInput from './HandlingInput'
+import TodoApp from './TodoApp'
 
 const App = () => {
 
@@ -16,8 +17,9 @@ const App = () => {
 
   return (
     <div>
-
-      <UseApi></UseApi>
+      <TodoApp />
+      {/* < HandlingInput /> */}
+      {/* <UseApi></UseApi> */}
       {/* <Services /> */}
 
       {/* <Hooks /> */}
